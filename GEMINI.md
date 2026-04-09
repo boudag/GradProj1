@@ -21,7 +21,8 @@ We have chosen a **Bio-mimetic "Smart Leaf"** scenario to ensure the design is "
 - [x] Communication protocol selection (Bluetooth Mesh).
 - [x] Power harvesting strategy (Hybrid TENG + TOPV).
 - [x] Antenna design concept (Bionic Fractal Vein).
-- [ ] MATLAB Signal Conditioning Simulation (TIA vs. CSA) (Pending).
+- [ ] MATLAB Signal Conditioning Simulation: Comparative analysis of TIA vs. CSA front-ends for high-capacitance organic sensors. (Next Priority)
+- [ ] Power Budget Modeling: Integrating TENG and TOPV harvesting data into the system model.
 - [ ] Technical Design Report (Pending).
 
 **Note**: The "Wildfire Warning Node" has been pivoted to the "Smart Leaf" concept based on the V-OSEM PDF. Do not request the project PDF again; all requirements are summarized here and in the root `project.pdf`.

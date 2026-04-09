@@ -33,12 +33,13 @@ This project focuses on the design of a **Vegetation-Overlayed Smart Environment
 - **Features**: Multi-band operation, compact flexible footprint, and high gain in small areas.
 - **Key Reference**: *Zhang (2022)*: "DESIGN OF A NOVEL FRACTAL UWB ANTENNA WITH BIONIC STRUCTURE."
 
-## 5. Next Steps: MATLAB Simulation Plan
-### TIA vs. CSA Efficiency Comparison
-1. **Sensor Model**: Model the OPD as a current source $I_{photo}$ with high shunt capacitance $C_s$.
-2. **Circuit Simulation**: Implement both a standard Op-Amp TIA and a Charge-Sensitive Amplifier (CSA).
-3. **Noise Analysis**: Compare the Signal-to-Noise Ratio (SNR) and Power Dissipation ($P_{diss}$) for both designs.
-4. **Goal**: Validate the selection of the CSA as the optimal front-end for the Smart Leaf.
+## 5. Next Steps: MATLAB Simulation Plan (WP2 Focus)
+### TIA vs. CSA Efficiency Comparison (Next Session)
+1. **Sensor Model**: Model the OPD as a current source $I_{photo}$ with high shunt capacitance $C_s$ (typical for large-area organic sensors).
+2. **Circuit Simulation**: Implement both a standard Op-Amp TIA and a **Charge-Sensitive Amplifier (CSA)** using a feedback capacitor $C_f$.
+3. **Noise Analysis**: Compare the **Signal-to-Noise Ratio (SNR)** and **Power Dissipation ($P_{diss}$)** for both designs.
+4. **Energy Harvesting**: Model the **TENG** and **TOPV** energy inputs to calculate the system's power budget.
+5. **Goal**: Validate the selection of the CSA and the hybrid power harvesting strategy as the optimal design for the "Smart Leaf" environment.
 
 ---
 *Created on: April 8, 2026 (Updated: Smart Leaf Pivot)*
