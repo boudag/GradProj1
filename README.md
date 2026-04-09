@@ -15,31 +15,31 @@ This project focuses on the design of a **Vegetation-Overlayed Smart Environment
 - **Transparent Organic Photovoltaics (TOPV)**: Harvesting **solar energy** while remaining semi-transparent to allow plant photosynthesis.
 - **Key Reference**: *Ruiz-Gonzalez (2025)*: "Transparent PEDOT:PSS/PDMS Leaf Tattoos for Energy Harvesting."
 
-### Signal Conditioning: CSA vs. TIA
-- **Choice**: **Charge-Sensitive Amplifier (CSA)**.
-- **Rationale**: Higher power efficiency and lower noise floor for organic sensors with high intrinsic capacitance.
-- **Key Reference**: *Zaki (2022)*: "High Time Resolution, Low-Noise, Power-Efficient, CSA."
+### Signal Conditioning: Transimpedance Amplifiers (TIA)
+- **Choice**: **Transimpedance Amplifier (TIA)**.
+- **Rationale**: Final selection based on design constraints for organic photodetector signal conditioning.
+- **Key Reference**: *V-OSEM Project Guidelines*: Comparative analysis and design choice.
 
 ## 3. Communication Subsystem (The "Language")
-### Bluetooth Mesh (Multi-hop)
-- **Protocol**: Bluetooth Low Energy (BLE) Mesh.
-- **Method**: "Leaf-to-leaf" data hopping to reach a remote gateway.
-- **Optimization**: **Compressive Sensing** to reduce transmission data volume by ~90%, extending node battery life.
+### Bluetooth Mesh (Multi-Tiered Architecture)
+- **Selection**: **Bluetooth Low Energy (BLE) Mesh**.
+- **Topology**: Multi-hop "leaf-to-leaf" Managed Flooding to ensure network self-healing in dense canopies.
+- **Architecture**: A multi-tiered approach using localized **Tree Relay Nodes** and a central **Forest Gateway** (Sink).
+- **Details**: See `table.md` for the full comparison and architectural diagram.
 - **Key Reference**: *Leonardi (2018)*: "Multi-Hop Real-Time Communications over BLE Mesh."
 
 ## 4. Electromagnetics Subsystem (The "Mouth")
-### Bionic Fractal Vein Antenna
-- **Design**: Fractal geometry (e.g., Minkowski) that mimics natural leaf venation.
-- **Features**: Multi-band operation, compact flexible footprint, and high gain in small areas.
-- **Key Reference**: *Zhang (2022)*: "DESIGN OF A NOVEL FRACTAL UWB ANTENNA WITH BIONIC STRUCTURE."
+... (unchanged) ...
 
 ## 5. Next Steps: MATLAB Simulation Plan (WP2 Focus)
-### TIA vs. CSA Efficiency Comparison (Next Session)
-1. **Sensor Model**: Model the OPD as a current source $I_{photo}$ with high shunt capacitance $C_s$ (typical for large-area organic sensors).
-2. **Circuit Simulation**: Implement both a standard Op-Amp TIA and a **Charge-Sensitive Amplifier (CSA)** using a feedback capacitor $C_f$.
-3. **Noise Analysis**: Compare the **Signal-to-Noise Ratio (SNR)** and **Power Dissipation ($P_{diss}$)** for both designs.
-4. **Energy Harvesting**: Model the **TENG** and **TOPV** energy inputs to calculate the system's power budget.
-5. **Goal**: Validate the selection of the CSA and the hybrid power harvesting strategy as the optimal design for the "Smart Leaf" environment.
+### TIA Optimization and Power Budget Analysis
+1. **Sensor Model**: Model the OPD as a current source $I_{photo}$ with high shunt capacitance $C_s$.
+2. **Circuit Simulation**: Implement and optimize the **Transimpedance Amplifier (TIA)** design.
+3. **Noise Analysis**: Perform noise modeling to determine the achievable **Signal-to-Noise Ratio (SNR)**.
+4. **Power Budget**: Integrate BLE Mesh energy profiles and energy harvesting (TENG/TOPV) data into the system model.
+5. **Autonomy Goal**: Calculate the minimum harvesting required for sustainable continuous operation.
+
+
 
 ---
 *Created on: April 8, 2026 (Updated: Smart Leaf Pivot)*

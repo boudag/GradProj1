@@ -11,9 +11,9 @@ The goal is to design a conceptual **Autonomous Smart Environmental Monitoring N
 ### Selected Application: V-OSEM (Vegetation-Overlayed Smart Environmental Monitoring)
 We have chosen a **Bio-mimetic "Smart Leaf"** scenario to ensure the design is "real-world" and technically challenging across all four required specializations:
 -   **Optics**: Flexible **Organic Photodetectors (OPD)** printed on film for 360° light and UV sensing.
--   **Electronics**: Hybrid energy harvesting (**TENG** for rain/wind + **TOPV** for solar) and **Charge-Sensitive Amplifiers (CSA)** for low-noise signal conditioning.
+-   **Electronics**: Hybrid energy harvesting (**TENG** for rain/wind + **TOPV** for solar) and **Transimpedance Amplifiers (TIA)** for low-noise signal conditioning.
 -   **Electromagnetics**: **Bionic Fractal Vein Antennas** that mimic natural leaf patterns for multi-band flexible connectivity.
--   **Communications**: **Bluetooth Mesh** for ultra-low power, multi-hop "leaf-to-leaf" data transmission in dense urban or forest canopies.
+-   **Communications**: **Bluetooth Mesh** for ultra-low power, multi-hop "leaf-to-leaf" data transmission in dense forest canopies, utilizing a multi-tiered gateway architecture.
 
 ### Current Status
 - [x] Application selection (V-OSEM Smart Leaf).
@@ -21,7 +21,8 @@ We have chosen a **Bio-mimetic "Smart Leaf"** scenario to ensure the design is "
 - [x] Communication protocol selection (Bluetooth Mesh).
 - [x] Power harvesting strategy (Hybrid TENG + TOPV).
 - [x] Antenna design concept (Bionic Fractal Vein).
-- [ ] MATLAB Signal Conditioning Simulation: Comparative analysis of TIA vs. CSA front-ends for high-capacitance organic sensors. (Next Priority)
+- [x] Signal Conditioning Selection (TIA selected).
+- [ ] MATLAB Signal Conditioning Simulation: Front-end modeling and noise analysis for high-capacitance organic sensors. (Next Priority)
 - [ ] Power Budget Modeling: Integrating TENG and TOPV harvesting data into the system model.
 - [ ] Technical Design Report (Pending).
 

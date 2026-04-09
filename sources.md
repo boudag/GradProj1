@@ -42,19 +42,35 @@
   - *Source:* SSRN/Elsevier (2026)
   - *DOI:* 10.2139/ssrn.6274892
 
-## 4. Communications (Bluetooth Mesh)
+## 4. Communications (Bluetooth Mesh & Gateway Architecture)
 - **Multi-Hop Real-Time Communications Over Bluetooth Low Energy Industrial Wireless Mesh Networks**
   - *Authors:* Luca Leonardi, Gaetano Patti, Lucia Lo Bello
   - *Source:* IEEE Access (2018)
   - *DOI:* 10.1109/access.2018.2834479
+- **Monitoring and Controlling of Bluetooth Mesh Network using Gateway**
+  - *Authors:* Kamaldeep Bansal, Salil Jain
+  - *Source:* IEEE IC2PCT (2024)
+  - *DOI:* 10.1109/ic2pct60090.2024.10486363
+- **A BLE-Based Multi-Gateway Network Infrastructure with Handover Support for Mobile BLE Peripherals**
+  - *Authors:* Mathias Baert, Pieterjan Camerlynck, et al.
+  - *Source:* IEEE MASS (2019)
+  - *DOI:* 10.1109/mass.2019.00020
 - **A Novel Overlay Mesh with Bluetooth Low Energy Network**
   - *Authors:* Pai Chet Ng, James She
   - *Source:* IEEE WCNC (2019)
   - *DOI:* 10.1109/wcnc.2019.8886069
+- **Link Prediction Algorithm for BLE Mesh Network in Health Monitoring System**
+  - *Authors:* Rui Li, Xiaohui Li, Yueming Ding
+  - *Source:* IEEE CCDC (2020)
+  - *DOI:* 10.1109/ccdc49329.2020.9164868
 - **WiLe: Fault Tolerance Mesh Network based on Bluetooth Low Energy for Reliable Wireless Sensor Networks**
   - *Authors:* Hai-Ninh Dang, Ngoc-Linh Nguyen
   - *Source:* VAP Proceedings (2023)
   - *DOI:* 10.15625/vap.2023.0119
+- **Multi-Layer-Partial-Mesh based Fail Proof HAN with Decentralized Multi Gateway for Smart Home Monitoring and Control**
+  - *Authors:* Rakesh Das, Jitendra Nath Bera
+  - *Source:* TechRxiv/IEEE (2022)
+  - *DOI:* 10.36227/techrxiv.21273666
 
 ## 5. Advanced Smart Leaf Solutions (Pro Strategy)
 - **Transparent PEDOT:PSS/PDMS Leaf Tattoos for Multiplexed Plant Health Monitoring and Energy Harvesting**
