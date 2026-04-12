@@ -26,4 +26,12 @@ We have chosen a **Bio-mimetic "Smart Leaf"** scenario to ensure the design is "
 - [ ] Power Budget Modeling: Integrating TENG and TOPV harvesting data into the system model.
 - [ ] Technical Design Report (Pending).
 
-**Note**: The "Wildfire Warning Node" has been pivoted to the "Smart Leaf" concept based on the V-OSEM PDF. Do not request the project PDF again; all requirements are summarized here and in the root `project.pdf`.
+### Research & Literature Review Stack
+- **Academic MCP**: Use for finding peer-reviewed papers on OPDs, TENGs, and Bluetooth Mesh.
+- **GitHub MCP**: Use for finding reference implementations and documentation.
+- **Google Workspace CLI (gws)**: Use for managing project files, emails, and calendar events.
+- **Security**: GitHub PAT and GWS tokens have expirations; remind user if authentication fails.
+- **Protection**: `.env` is ignored and restricted (`chmod 600`).
+
+**Note**: The "Wildfire Warning Node" has been pivoted to the "Smart Leaf" concept based on the V-OSEM PDF.
+ Do not request the project PDF again; all requirements are summarized here and in the root `project.pdf`.
