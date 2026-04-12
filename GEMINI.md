@@ -22,7 +22,7 @@ We have chosen a **Bio-mimetic "Smart Leaf"** scenario to ensure the design is "
 - [x] Power harvesting strategy (Hybrid TENG + TOPV).
 - [x] Antenna design concept (Bionic Fractal Vein).
 - [x] Signal Conditioning Selection (TIA selected).
-- [ ] MATLAB Signal Conditioning Simulation: Front-end modeling and noise analysis for high-capacitance organic sensors. (Next Priority)
+- [x] MATLAB Signal Conditioning Simulation: Initial noise analysis and gain peaking model implemented in `WP2_TIA_Simulation.m`.
 - [ ] Power Budget Modeling: Integrating TENG and TOPV harvesting data into the system model.
 - [ ] Technical Design Report (Pending).
 

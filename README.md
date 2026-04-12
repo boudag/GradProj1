@@ -18,7 +18,7 @@ This project focuses on the design of a **Vegetation-Overlayed Smart Environment
 ### Signal Conditioning: Transimpedance Amplifiers (TIA)
 - **Choice**: **Transimpedance Amplifier (TIA)**.
 - **Rationale**: Final selection based on design constraints for organic photodetector signal conditioning.
-- **Key Reference**: *V-OSEM Project Guidelines*: Comparative analysis and design choice.
+- **Implementation**: See `WP2_TIA_Simulation.m` for the MATLAB noise model and bandwidth analysis.
 
 ## 3. Communication Subsystem (The "Language")
 ### Bluetooth Mesh (Multi-Tiered Architecture)
@@ -26,20 +26,17 @@ This project focuses on the design of a **Vegetation-Overlayed Smart Environment
 - **Topology**: Multi-hop "leaf-to-leaf" Managed Flooding to ensure network self-healing in dense canopies.
 - **Architecture**: A multi-tiered approach using localized **Tree Relay Nodes** and a central **Forest Gateway** (Sink).
 - **Details**: See `table.md` for the full comparison and architectural diagram.
-- **Key Reference**: *Leonardi (2018)*: "Multi-Hop Real-Time Communications over BLE Mesh."
 
 ## 4. Electromagnetics Subsystem (The "Mouth")
-... (unchanged) ...
+- **Antenna Type**: Bionic Fractal Vein Antenna.
+- **Design**: Flexible substrate following leaf venation patterns for multi-band connectivity.
 
-## 5. Next Steps: MATLAB Simulation Plan (WP2 Focus)
-### TIA Optimization and Power Budget Analysis
-1. **Sensor Model**: Model the OPD as a current source $I_{photo}$ with high shunt capacitance $C_s$.
-2. **Circuit Simulation**: Implement and optimize the **Transimpedance Amplifier (TIA)** design.
-3. **Noise Analysis**: Perform noise modeling to determine the achievable **Signal-to-Noise Ratio (SNR)**.
-4. **Power Budget**: Integrate BLE Mesh energy profiles and energy harvesting (TENG/TOPV) data into the system model.
-5. **Autonomy Goal**: Calculate the minimum harvesting required for sustainable continuous operation.
-
-
+## 5. Current Implementation: MATLAB Simulation (WP2)
+### TIA Noise & Performance Modeling (`WP2_TIA_Simulation.m`)
+The initial simulation addresses the critical challenge of **high-capacitance organic sensors** ($C_{sh} \approx 500 \text{ pF}$).
+- **Noise Analysis**: Models thermal noise, current noise, and the characteristic voltage noise gain peaking.
+- **Compensation**: Utilizes feedback capacitance ($C_f$) to stabilize the TIA and optimize bandwidth.
+- **Next Step**: Expand to include Power Budget Modeling based on TENG/TOPV harvesting profiles.
 
 ---
-*Created on: April 8, 2026 (Updated: Smart Leaf Pivot)*
+*Created on: April 8, 2026 (Updated: April 12, 2026 - Simulation V1.0)*
