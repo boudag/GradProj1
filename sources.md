@@ -71,6 +71,35 @@
   - *Authors:* Rakesh Das, Jitendra Nath Bera
   - *Source:* TechRxiv/IEEE (2022)
   - *DOI:* 10.36227/techrxiv.21273666
+- **Managing a QoS-enabled Bluetooth Mesh network using a Digital Twin Network: An experimental evaluation**
+  - *Description:* Explores advanced management of mesh networks via Digital Twins, optimizing multi-tiered gateway architectures for dense deployments.
+  - *Authors:* Jorg Wieme, Mathias Baert, Jeroen Hoebeke
+  - *Source:* Internet of Things / Elsevier (2024)
+  - *DOI:* 10.1016/j.iot.2023.101023
+- **IPv6 Mesh over BLUETOOTH(R) Low Energy Using the Internet Protocol Support Profile (IPSP)**
+  - *Description:* Official IETF standard (RFC 9159) for running IPv6 directly over BLE Mesh, enabling native IP connectivity without protocol translation.
+  - *Authors:* C. Gomez, S.M. Darroudi, et al.
+  - *Source:* RFC Editor (2021)
+  - *DOI:* 10.17487/rfc9159
+- **Contributions to bluetooth low energy mesh networks**
+  - *Description:* PhD dissertation providing a deep comparison between standard Bluetooth Mesh (translation-based) and 6BLEMesh (native IP-based), focusing on latency and energy trade-offs.
+  - *Author:* Seyed Mahdi Darroudi
+  - *Source:* Universitat Politècnica de Catalunya (2023)
+  - *DOI:* 10.5821/dissertation-2117-330139
+- **Latency and Power Consumption in 2.4 GHz IoT Wireless Mesh Nodes: An Experimental Evaluation of Bluetooth Mesh and Wirepas Mesh**
+  - *Description:* Experimental benchmarking of power consumption and transmission latency for 2.4 GHz mesh nodes, critical for V-OSEM power budget modeling.
+  - *Authors:* Silvano Cortesi, Christian Vogt, et al.
+  - *Source:* IEEE WiMob (2023)
+  - *DOI:* 10.1109/WiMob58348.2023.10187799
+- **Demystifying the Performance of Bluetooth Mesh: Experimental Evaluation and Optimization**
+  - *Description:* Reliability and latency evaluation of Bluetooth Mesh using Nordic nRF52840 devices, investigating impact of segmentation and traffic patterns.
+  - *Authors:* Adnan Aijaz, Aleksandar Stanoev, et al.
+  - *Source:* arXiv / IEEE (2021)
+  - *URL:* https://arxiv.org/abs/2106.04230v1
+
+### Connectivity Strategy Summary:
+- **Protocol Translation Gateway**: Standard Bluetooth Mesh nodes transmit data to a gateway (router) that translates Bluetooth packets into MQTT or HTTP for cloud storage. Most robust for existing mesh devices but introduces translation latency.
+- **Native IPv6 (RFC 9159)**: Utilizes 6LoWPAN to allow leaf nodes to be directly addressable via the internet. Reduces gateway translation overhead but requires nodes to handle IPv6 stack complexity, impacting energy consumption.
 
 ## 5. Advanced Smart Leaf Solutions (Pro Strategy)
 - **Transparent PEDOT:PSS/PDMS Leaf Tattoos for Multiplexed Plant Health Monitoring and Energy Harvesting**
