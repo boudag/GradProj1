@@ -72,7 +72,7 @@
   - *Source:* TechRxiv/IEEE (2022)
   - *DOI:* 10.36227/techrxiv.21273666
 - **Managing a QoS-enabled Bluetooth Mesh network using a Digital Twin Network: An experimental evaluation**
-  - *Description:* Explores advanced management of mesh networks via Digital Twins, optimizing multi-tiered gateway architectures for dense deployments.
+  - *Description:* Explores advanced management of mesh networks via Digital Twins, optimizing multi-tiered gateway architectures for dense deployments. (**Paid access, not available on sci-hub.ru**)
   - *Authors:* Jorg Wieme, Mathias Baert, Jeroen Hoebeke
   - *Source:* Internet of Things / Elsevier (2024)
   - *DOI:* 10.1016/j.iot.2023.101023
